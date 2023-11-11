@@ -1,0 +1,11 @@
+docker tag local-image:tag-name username/reponame:tagname
+
+docker tag ubuntu:latest iamrj846/myubuntu:myubuntutag
+
+docker tag vamshii7/bucketlist:0.2 vamshii7/statefulapp:0.2
+
+docker push vamshii7/bucketlist --all-tags
+
+gcloud container clusters get-credentials "bucketlist" --region us-central1
+
+watch n1 kubectl get pods
