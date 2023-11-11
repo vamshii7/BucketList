@@ -1,0 +1,1 @@
+# Kuberenets-Statefulsets
