@@ -1,4 +1,4 @@
-## To-Do List
+## The To-Do List
 
 This is a very simple flask application that enables end-user to add Items to his/hers To-Do list.
 The items are saved locally in `/app-storage/list.txt` file.
