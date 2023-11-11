@@ -14,7 +14,7 @@ def hello():
 def print_dream():
     html = '<html>'
     html += '<head><link rel="stylesheet" type="text/css" href="static/style.css"></head>'
-    html += "<h3>The To-Do list.</h3>"
+    html += "<h3>The bucket list. Dream Big!</h3>"
     html +=  '''
             <form action="/" method="post">
             <label for="dream">Add item:</label>
@@ -22,7 +22,7 @@ def print_dream():
             <input type="submit" value="Submit">
             </form> <br><br>
             ''' 
-    html += "<h4>My To-Do list:</h4>"
+    html += "<h4>My bucket list:</h4>"
     try:
         with open('/app-storage/list.txt') as f:
             for line in f:
