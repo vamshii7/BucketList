@@ -8,4 +8,4 @@ docker push vamshii7/bucketlist --all-tags
 
 gcloud container clusters get-credentials "bucketlist" --region us-central1
 
-watch n1 kubectl get pods
+watch -n 1 kubectl get pods
