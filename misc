@@ -9,3 +9,7 @@ docker push vamshii7/bucketlist --all-tags
 gcloud container clusters get-credentials "bucketlist" --region us-central1
 
 watch -n 1 kubectl get pods
+
+https://4sysops.com/archives/kubernetes-init-containers/
+
+https://4sysops.com/archives/deploying-stateful-applications-with-kubernetes-statefulsets/
