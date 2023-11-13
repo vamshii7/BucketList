@@ -5,4 +5,4 @@ The items are saved locally in `/app-storage/list.txt` file.
 
 Developed to exaplain on example the difference between **stateful** and **stateless app**, and how to save a state in kubernetes.
 
-Docker image is available via: https://hub.docker.com/r/vamshii7/todo
+Docker image is available via: https://hub.docker.com/r/vamshii7/bucketlist 
